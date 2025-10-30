@@ -9,7 +9,7 @@ export const About = () => {
       {/* Left Side: Profile Card */}
       <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-sm w-full flex flex-col items-center mb-10 md:mb-0 md:mr-12">
         <img
-          src="/src/assets/profile.jpg"
+          src="../assets/profile.jpg"
           alt="Profile"
           className="w-32 h-32 rounded-full border-4 border-blue-500 shadow-lg mb-4 object-cover"
         />
