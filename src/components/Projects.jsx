@@ -44,6 +44,15 @@ const projects = [
     demo: "https://car-parking-js.vercel.app/",
     image: "https://plus.unsplash.com/premium_photo-1661902046698-40bba703f396?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FyJTIwcGFya2luZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
   },
+  {
+  title: "Saint Charles Borromeo",
+  description: "A responsive website dedicated to Saint Charles Borromeo — his life, works, sermons, events, and catechism resources for parishioners and teachers. Built with Next.js and Tailwind CSS and deployed on Vercel.",
+  tags: ["HTML", "CSS", "Javascript", "Vercel"],
+  github: "https://github.com/Kevinpaulbabu1820/saint-charles-borromeo-website",
+  demo: "https://saint-charles-borromeo-website.vercel.app/",
+  image: "https://th.bing.com/th/id/R.4adc1b1c02f9165fea7c5f61fbd66a16?rik=7SGYio4iXRiVNQ&riu=http%3a%2f%2fcommunio.stblogs.org%2fwp-content%2fuploads%2f2013%2f11%2fSan-Carlo-Borromeo.jpg&ehk=GLQhVrLTTadMFWjS884VDX8e818dW2D%2fnKM6vUL1ZRQ%3d&risl=&pid=ImgRaw&r=0"
+},
+
    {
     title: "More projects coming soon",
     description: " ",
