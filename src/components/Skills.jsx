@@ -1,6 +1,6 @@
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaGithub, FaDatabase, FaPython } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiPostman, SiExpress, SiBootstrap, SiTypescript, SiNextdotjs, SiGithubcopilot } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiPostman, SiExpress, SiBootstrap, SiTypescript, SiNextdotjs, SiGithubcopilot, SiMui} from 'react-icons/si';
 
 export const Skills = () => {
   const skillCategories = [
@@ -15,6 +15,7 @@ export const Skills = () => {
         { name: 'Next.js', icon: SiNextdotjs, proficiency: 75, color: '#FFFFFF' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, proficiency: 85, color: '#06B6D4' },
         { name: 'Bootstrap', icon: SiBootstrap, proficiency: 80, color: '#7952B3' },
+         { name: 'Material UI', icon: SiMui, proficiency: 78, color: '#007FFF' },
       ],
     },
     {
