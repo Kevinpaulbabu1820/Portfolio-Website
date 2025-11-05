@@ -1,6 +1,6 @@
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaGithub, FaDatabase, FaPython } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiPostman, SiExpress, SiBootstrap } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiPostman, SiExpress, SiBootstrap, SiTypescript, SiNextdotjs, SiCursor, SiGithubcopilot } from 'react-icons/si';
 
 export const Skills = () => {
   const skillCategories = [
@@ -10,7 +10,9 @@ export const Skills = () => {
         { name: 'HTML5', icon: FaHtml5, proficiency: 90, color: '#E34F26' },
         { name: 'CSS3', icon: FaCss3Alt, proficiency: 85, color: '#1572B6' },
         { name: 'JavaScript (ES6+)', icon: FaJs, proficiency: 85, color: '#F7DF1E' },
+        { name: 'TypeScript', icon: SiTypescript, proficiency: 80, color: '#3178C6' },
         { name: 'React', icon: FaReact, proficiency: 80, color: '#61DAFB' },
+        { name: 'Next.js', icon: SiNextdotjs, proficiency: 75, color: '#000000' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, proficiency: 85, color: '#06B6D4' },
         { name: 'Bootstrap', icon: SiBootstrap, proficiency: 80, color: '#7952B3' },
       ],
@@ -30,6 +32,8 @@ export const Skills = () => {
       skills: [
         { name: 'Git & GitHub', icon: FaGithub, proficiency: 85, color: '#FFFFFF' },
         { name: 'Postman', icon: SiPostman, proficiency: 80, color: '#FF6C37' },
+        { name: 'GitHub Copilot', icon: SiGithubcopilot, proficiency: 85, color: '#000000' },
+        { name: 'Cursor', icon: SiCursor, proficiency: 80, color: '#00FF00' },
       ],
     },
   ];
