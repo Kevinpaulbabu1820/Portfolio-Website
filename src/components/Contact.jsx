@@ -13,7 +13,7 @@ const Contact = () => {
                 title="Google Map"
                 className="w-full h-full border-0"
                 frameBorder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=Valamkottil+Lane&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                src="https://www.google.com/maps?q=Kochi,Kerala,India&output=embed"
                 allowFullScreen
               ></iframe>
             </div>
