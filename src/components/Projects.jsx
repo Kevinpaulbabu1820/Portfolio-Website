@@ -46,7 +46,7 @@ const projects = [
   },
   {
   title: "Saint Charles Borromeo",
-  description: "A responsive website dedicated to Saint Charles Borromeo — his life, works, sermons, events, and catechism resources for parishioners and teachers. Built with Next.js and Tailwind CSS and deployed on Vercel.",
+  description: "A responsive website dedicated to Saint Charles Borromeo — his life, works, sermons, events, and catechism resources for parishioners and teachers.",
   tags: ["HTML", "CSS", "Javascript", "Vercel"],
   github: "https://github.com/Kevinpaulbabu1820/saint-charles-borromeo-website",
   demo: "https://saint-charles-borromeo-website.vercel.app/",
