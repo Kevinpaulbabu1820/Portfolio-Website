@@ -61,18 +61,22 @@ const projects = [
   image: "https://images.unsplash.com/photo-1762330472502-83efbe1d4478?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9naW4lMjBmb3JtfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
   },
 
-   {
-    title: "More projects coming soon",
-    description: " ",
-    tags: [""],
-    github: "https://github.com",
-    demo: "https://google.com",
-    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
-  }
-  // Add more projects as needed
 ];
 
 const Projects = () => {
+  const PlaceholderCard = () => (
+    <div className="group relative bg-black border border-gray-800 rounded-lg overflow-hidden transform transition-all duration-300 hover:border-gray-700 hover:shadow-xl hover:-translate-y-1">
+      <div className="h-48 bg-gradient-to-r from-gray-900 to-gray-800 animate-pulse"></div>
+      <div className="p-4">
+        <h3 className="text-xl font-semibold text-gray-300 mb-2">More Projects Coming Soon</h3>
+        <p className="text-gray-500">Stay tuned for exciting new projects!</p>
+        <div className="mt-4 flex gap-2">
+          <div className="h-6 w-20 bg-gray-800 rounded animate-pulse"></div>
+          <div className="h-6 w-20 bg-gray-800 rounded animate-pulse"></div>
+        </div>
+      </div>
+    </div>
+  );
   const [search, setSearch] = useState('')
   const [debouncedSearch, setDebouncedSearch] = useState('')
   const [selectedTags, setSelectedTags] = useState([])
@@ -141,7 +145,7 @@ const Projects = () => {
         )}
 
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((project, idx) => (
+          {filtered.filter(project => project.title !== "More projects coming soon").map((project, idx) => (
             <div key={idx} className="group perspective">
               <div className="relative bg-gray-900 rounded-xl shadow-xl transform transition-transform duration-500 group-hover:rotate-y-12 group-hover:-rotate-x-6 group-hover:scale-105" style={{ perspective: '1200px' }}>
                 <div className="overflow-hidden rounded-t-xl">
@@ -167,6 +171,7 @@ const Projects = () => {
               </div>
             </div>
           ))}
+          {!debouncedSearch && selectedTags.length === 0 && <PlaceholderCard />}
         </div>
       </div>
     </section>
