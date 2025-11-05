@@ -54,7 +54,7 @@ const projects = [
 },
  {
   title: "Login/Sign Up Form",
-  description: "A login/sign up form built using Next.js and Typescript with form validation using React Hook Form and Zod. The form includes features such as password visibility toggle, 'Remember Me' functionality, and responsive design for optimal user experience across devices.",
+  description: "A login/sign up form built using Next.js and Typescript with form validation using Next JS and Tailwind CSS. The form includes features such as password visibility toggle, 'Remember Me' functionality, and responsive design for optimal user experience across devices.",
   tags: ["NextJS", "TailwindCSS", "TypeScript", "Vercel"],
   github: "https://github.com/Kevinpaulbabu1820/Login-Signup-Form",
   demo: "https://login-signup-form-np3q.vercel.app/",
