@@ -9,7 +9,7 @@ const projects = [
     description: "A Recipe Book built with React and Tailwind CSS.",
     tags: ["React", "TailwindCSS","API"],
     github: "https://github.com/Kevinpaulbabu1820/Recipe-book",
-    demo: "https://recipe-book-b6e7tvt4w-kevinpaulbabu1820s-projects.vercel.app/",
+    demo: "https://recipe-book-plum-eta.vercel.app/",
     image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=580"
   },
   {
