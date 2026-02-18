@@ -60,6 +60,15 @@ const projects = [
   demo: "https://login-signup-form-np3q.vercel.app/",
   image: "https://images.unsplash.com/photo-1762330472502-83efbe1d4478?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9naW4lMjBmb3JtfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
   },
+  {
+  title: "Smart Bookmarks", 
+  description: "SmartBookmarks Manager is a full-stack web application that enables users to securely save, organize, and access personal bookmarks using Google OAuth authentication.",
+  tags: ["NextJS","Supabase","Typescript","TailwindCSS"], 
+  github: "https://github.com/Kevinpaulbabu1820/SmartBookmarks-Manager-Website",
+  demo: "https://smart-bookmarks-manager-website.vercel.app/",
+  image: "https://plus.unsplash.com/premium_photo-1720192861537-e9a54875365a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c21hcnQlMjBib29rbWFya3N8ZW58MHx8MHx8fDA%3D"
+}
+
 
 ];
 
